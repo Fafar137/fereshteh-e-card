@@ -1,33 +1,41 @@
 # 🎓 Congratulations, Dr. Fereshte Vahidi!
 
-This repository hosts an interactive **PhD Defense E-Card**.
-
-Friends and colleagues can:
-- 💌 Write congratulatory messages  
-- 📸 Attach up to 3 photos  
-- 📱 Share the card with a link or QR code  
-- 👀 Use a **view-only link** (`?view=1`) to see the guestbook gallery  
-- 🎞️ Run a full-screen slideshow (`?slideshow=1`)  
-- 🖨️ Print / Save as PDF  
-- ⬇️ Export all messages to JSON/CSV  
-
----
-## 🚀 How to View the Card
-Visit the live site here:  
-👉 https://Fafar137.github.io/fereshteh-e-card/
+An interactive **PhD Defense E-Card** where friends can leave congratulatory messages and photos.  
+Built with HTML/CSS/JS, shareable by link or QR code.
 
 ---
 
-## 🔧 Firebase Setup (Optional)
-If you want all guests to see each other’s posts (not just local storage):
+## 🚀 Live Card
 
-1. Create a Firebase project.  
-2. Enable **Firestore Database (production)**, **Storage**, and **Anonymous Authentication**.  
-3. Copy your Firebase config JSON from **Project Settings → Web app**.  
-4. Paste it into the Admin box on the page → click **Save & Reload**.  
-5. The mode will change to **Shared (Firebase)** and posts sync in real time.
+👉 **[Open the E-Card](https://Fafar137.github.io/fereshteh-e-card/)**  
+
+If the card file hasn’t been renamed to `index.html`, use this direct link instead:  
+👉 [Open with full filename](https://Fafar137.github.io/fereshteh-e-card/ph_d_e_card_dr_fereshte_vahidi_shareable_with_qr.html)
+
+---
+
+## ✨ Features
+- 💌 Add text messages  
+- 📸 Upload up to 3 photos (max 4MB each)  
+- 🔗 Shareable link & **📱 QR code**  
+- 👀 **View-only mode**: add `?view=1` to the URL  
+- 🎞️ **Slideshow**: add `?slideshow=1` to the URL  
+- 🖨️ Print or save as PDF keepsake  
+- ⬇️ Export all messages/photos as JSON or CSV  
+
+---
+
+## 🔧 Shared Mode (Optional, via Firebase)
+By default the card works in **local demo** mode (messages only show on your device).  
+To make it a shared guestbook:
+
+1. Create a free Firebase project.  
+2. Enable **Firestore Database** (production), **Storage**, and **Anonymous Authentication**.  
+3. Copy your Firebase config (Project settings → Web app).  
+4. Paste it into the “Admin → Firebase Settings” box on the page.  
+5. Reload → the mode changes to **Shared (Firebase)** and everyone’s posts sync in real-time.  
 
 ---
 
 ## 📝 License
-This project is for personal celebration use 🎉
+For personal celebration use 🎉
