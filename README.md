@@ -12,12 +12,9 @@ Friends and colleagues can:
 - ⬇️ Export all messages to JSON/CSV  
 
 ---
-
 ## 🚀 How to View the Card
 Visit the live site here:  
-👉 [https://your-username.github.io/fereshte-card/](https://your-username.github.io/fereshte-card/)  
-
-Or scan the QR code directly from the page.
+👉 https://Fafar137.github.io/fereshteh-e-card/
 
 ---
 
